@@ -1,8 +1,9 @@
 Simulador de Cache - README
-Descrição
+
+Descrição:
 Este programa implementa uma simulação de cache, que permite avaliar o desempenho de diferentes políticas de substituição e escrita em um sistema de cache. Ele lê um arquivo de entrada contendo uma sequência de endereços de memória e operações (leitura ou escrita), e simula o comportamento da cache ao acessar esses endereços.
 
-Estrutura do Código
+Estrutura do Código:
 O código é organizado em duas estruturas principais:
 
 CacheLinha: Representa uma linha da cache, armazenando informações como tag, validade, dirty bit (indica se os dados foram modificados), a última vez que a linha foi usada (para LRU) e a frequência de uso (para LFU).
